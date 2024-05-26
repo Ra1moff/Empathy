@@ -1,0 +1,51 @@
+:root {
+    --font-family: "Inter"
+}
+
+:root {
+    --second-family: "Roboto"
+}
+
+:root {
+    --first-color: #ede6dd;
+}
+
+:root {
+    --second-color: #fff;
+}
+
+:root {
+    --third-color: #ffd394;
+}
+
+:root {
+    --fourth-color: #f4efe9;
+}
+
+:root {
+    --fifth-color: #592141;
+}
+
+:root {
+    --sixth-color: #1e1928;
+}
+
+:root {
+    --seventh-color: rgba(30, 25, 40, 0.8);
+}
+
+:root {
+    --eightth-color:  rgba(30, 25, 40, 0.23);
+}
+
+:root {
+    --nineth-color: rgba(30, 25, 40, 0.64);
+}
+
+:root {
+    --tenth-color: rgba(30, 25, 40, 0.08);
+}
+
+:root {
+    --eleventh-color:  rgba(30, 25, 40, 0.16);
+}

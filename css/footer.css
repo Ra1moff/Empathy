@@ -1,0 +1,168 @@
+.footer {
+    background: var(--second-color);
+    padding: 64px 120px;
+}
+
+@media (width <= 1358px) {
+    .footer {
+        padding: unset;
+        padding: 60px 0;
+    }
+}
+
+.footer__cards {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 112px;
+}
+
+@media (width <= 1358px) {
+    .footer__cards {
+        flex-direction: column;
+    }
+}
+
+.footer__company {
+    max-width: 276px;
+    width: 100%;
+}
+
+.footer__company-title {
+    font-size: 17px;
+    line-height: 153%;
+    letter-spacing: 0.01em;
+    color: var(--sixth-color);
+    padding-bottom: 16px;
+}
+
+.footer__company-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__company-link {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--seventh-color);
+}
+
+.footer__recourses {
+    max-width: 276px;
+    width: 100%;
+}
+
+.footer__recourses-title {
+    font-size: 17px;
+    line-height: 153%;
+    letter-spacing: 0.01em;
+    color: var(--sixth-color);
+    padding-bottom: 16px;
+}
+
+.footer__recourses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__recourses-link {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--seventh-color);
+}
+
+.footer__socials {
+    max-width: 584px;
+    width: 100%;
+}
+
+@media (width <= 1358px) {
+    .footer__socials {
+        max-width: unset;
+    }
+}
+
+.footer__icons {
+    display: flex;
+    gap: 16px;
+}
+
+.footer__icon-parent {
+    display: flex;
+    gap: 16px;
+}
+
+.footer__socials-icon {
+    flex-shrink: 0;
+}
+
+@media (width <= 1358px) {
+    .footer__icon-parent {
+        gap: 33px;
+    }
+}
+
+@media (width <= 1358px) {
+    .footer__icons {
+        flex-direction: column;
+    }
+}
+
+.footer__socials-btn {
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: var(--fourth-color);
+    border-radius: 9999px;
+    background: var(--sixth-color);
+    width: 257px;
+    padding: 10px 32px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.empathy {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.empathy__text {
+    font-size: 14px;
+    line-height: 157%;
+    letter-spacing: 0.01em; 
+    color: var(--nineth-color);
+    max-width: 665px;
+    width: 100%;
+}
+
+.empathy__adress {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 167%;
+    color: var(--nineth-color);
+}
+
+.downloads {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.downloads__icons {
+    display: flex;
+    gap: 16px;
+}
+
+.downloads__text {
+    font-size: 12px;
+    color: var( --nineth-color);
+    line-height: 167%;
+    text-align: right;
+}
